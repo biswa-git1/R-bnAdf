@@ -23,10 +23,10 @@
 					"url": "https://dummy.restapiexample.com/api/v1/create",
 					"method": "POST",
 					"headers": {
-						"content_type": "application\\json"
+						"Content-Type": "application\\json"
 					},
 					"body": {
-						"name": "testb",
+						"name": "testb1",
 						"salary": "1231",
 						"age": "21"
 					}
