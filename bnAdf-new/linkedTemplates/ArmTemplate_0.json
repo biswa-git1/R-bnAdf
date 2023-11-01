@@ -91,36 +91,6 @@
 			"properties": {
 				"activities": [
 					{
-						"name": "Web1",
-						"type": "WebActivity",
-						"dependsOn": [
-							{
-								"activity": "Web2",
-								"dependencyConditions": [
-									"Completed"
-								]
-							}
-						],
-						"policy": {
-							"timeout": "0.12:00:00",
-							"retry": 0,
-							"retryIntervalInSeconds": 30,
-							"secureOutput": false,
-							"secureInput": false
-						},
-						"userProperties": [
-							{
-								"name": "activity_name",
-								"value": "emp_get"
-							}
-						],
-						"typeProperties": {
-							"url": "https://dummy.restapiexample.com/api/v1/employees",
-							"method": "GET",
-							"headers": {}
-						}
-					},
-					{
 						"name": "Web2",
 						"type": "WebActivity",
 						"dependsOn": [],
