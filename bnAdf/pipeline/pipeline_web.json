@@ -44,7 +44,12 @@
 					"secureOutput": false,
 					"secureInput": false
 				},
-				"userProperties": [],
+				"userProperties": [
+					{
+						"name": "web_name",
+						"value": "web_post_emp"
+					}
+				],
 				"typeProperties": {
 					"url": "https://dummy.restapiexample.com/api/v1/create",
 					"method": "POST",
