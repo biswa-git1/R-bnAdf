@@ -10,6 +10,36 @@
 		},
 		"AzureBlobStorage2_connectionString": {
 			"value": ""
+		},
+		"AzureBlobStorage3_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage4_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage5_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage6_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage7_connectionString": {
+			"value": ""
+		},
+		"FileServer1_password": {
+			"value": ""
+		},
+		"linkedServiceLogFile_connectionString": {
+			"value": ""
+		},
+		"linksblob1_connectionString": {
+			"value": ""
+		},
+		"FileServer1_properties_typeProperties_host": {
+			"value": "C:\\ADF-files\\"
+		},
+		"FileServer1_properties_typeProperties_userId": {
+			"value": "Admin"
 		}
 	}
 }
