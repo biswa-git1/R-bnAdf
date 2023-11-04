@@ -35,6 +35,14 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'AzureBlobStorage7'"
 		},
+		"AzureBlobStorage8_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'AzureBlobStorage8'"
+		},
+		"AzureBlobStorage9_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'AzureBlobStorage9'"
+		},
 		"FileServer1_password": {
 			"type": "secureString",
 			"metadata": "Secure string for 'password' of 'FileServer1'"
@@ -102,6 +110,12 @@
 					},
 					"AzureBlobStorage7_connectionString": {
 						"value": "[parameters('AzureBlobStorage7_connectionString')]"
+					},
+					"AzureBlobStorage8_connectionString": {
+						"value": "[parameters('AzureBlobStorage8_connectionString')]"
+					},
+					"AzureBlobStorage9_connectionString": {
+						"value": "[parameters('AzureBlobStorage9_connectionString')]"
 					},
 					"FileServer1_password": {
 						"value": "[parameters('FileServer1_password')]"

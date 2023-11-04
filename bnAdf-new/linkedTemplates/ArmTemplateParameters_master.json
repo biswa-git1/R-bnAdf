@@ -26,6 +26,12 @@
 		"AzureBlobStorage7_connectionString": {
 			"value": ""
 		},
+		"AzureBlobStorage8_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage9_connectionString": {
+			"value": ""
+		},
 		"FileServer1_password": {
 			"value": ""
 		},
