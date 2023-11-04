@@ -316,8 +316,6 @@
 					{
 						"name": "Web1",
 						"type": "WebActivity",
-						"state": "Inactive",
-						"onInactiveMarkAs": "Succeeded",
 						"dependsOn": [
 							{
 								"activity": "Copy data1",
@@ -339,7 +337,8 @@
 							"method": "POST",
 							"headers": {
 								"Content-type": "application\\json"
-							}
+							},
+							"body": "hi"
 						}
 					}
 				],
