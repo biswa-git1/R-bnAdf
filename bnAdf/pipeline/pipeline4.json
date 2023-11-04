@@ -81,7 +81,10 @@
 				"userProperties": [],
 				"typeProperties": {
 					"url": "https://bn-logicapp.azurewebsites.net:443/api/emailAlert/triggers/When_a_HTTP_request_is_received/invoke?api-version=2022-05-01&sp=%2Ftriggers%2FWhen_a_HTTP_request_is_received%2Frun&sv=1.0&sig=X4pKMZivxa6HAIqRVv5wLlK6uT904dgl1wYTuUZW38c",
-					"method": "POST"
+					"method": "POST",
+					"headers": {
+						"Content-type": "application\\json"
+					}
 				}
 			}
 		],
