@@ -339,7 +339,7 @@
 								"Content-type": "application/json"
 							},
 							"body": {
-								"value": "{\n    \"Pipeline\":\"@{pipeline().Pipeline}\",\n\"ErrorMessage\":\"@{activity('Copy data11').output}\",\n\"DataFactoryName\":\"@{pipeline().DataFactory}\",\n\"Runid\":\"pipeline().RunId\"\n\n}",
+								"value": "{\n    \"Pipeline\":\"asdad\",\n\"ErrorMessage\":\"hgahgsqsqi\",\n\"DataFactoryName\":\"SADEF\",\n\"Runid\":\"adwfege\"\n\n}",
 								"type": "Expression"
 							}
 						}
